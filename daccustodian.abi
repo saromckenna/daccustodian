@@ -293,11 +293,11 @@
 	"actions": [{
 			"name": "stprofile",
 			"type": "stprofile",
-			"ricardian_contract": "An authenticated action to update the user's profile. ##Warning: This action will store the content on the chain in the history logs and the data cannot be deleted later so therefore should only store a unidentifiable hash of content rather than human readable content. "
+			"ricardian_contract": "##ACTION: stprofile\n**PARAMETERS:**__cand__ is an eosio account_name, __profile__is a text string. \n**INTENT:** The intent of stprofile is to update the hash referring to the Custodian candidate's profile.\n**TERM:**This action will store content on the blockchain and the data cannot be deleted later so the user should only send an unidentifiable hash of content rather than human readable content."
 		},{
 			"name": "stprofileuns",
 			"type": "stprofileuns",
-			"ricardian_contract": "An authenticated action to update the user's profile. ##Warning: This action will store the content on the chain in the history logs and the data cannot be deleted later."
+			"ricardian_contract": An authenticated action to update the user's profile. ##Warning: This action will store the content on the chain in the history logs and the data cannot be deleted later."
 		},{
 			"name": "firecust",
 			"type": "firecust",
